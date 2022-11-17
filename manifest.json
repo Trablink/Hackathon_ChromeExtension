@@ -1,0 +1,14 @@
+{
+    "name": "Fun Hider",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "author": "Meimei Xiong & Jason Goldman",
+    "description": "Quickly hides your current 'unacceptable' webpage with a pre-determined 'acceptable' page",
+    "action": {
+        "default_popup": "index.html"
+    }
+
+
+
+}
