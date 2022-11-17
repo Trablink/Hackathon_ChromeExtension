@@ -5,8 +5,10 @@ let keysPressed = {};
 document.addEventListener("keydown", (event) => {
   keysPressed[event.key] = true;
   console.log(keysPressed);
+  console.log(keysPressed);
   if (keysPressed["ArrowLeft"] && event.key == "ArrowRight") {
-    console.log(`It works!!!`);
+    console.log(`it's working!!`);
+    window.open("https://www.google.com", "_self");
   }
 });
 //Return to your regularly scheduled webpage with Up/Down

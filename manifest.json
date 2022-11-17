@@ -8,8 +8,17 @@
     "action": {
         "default_popup": "index.html"
         
-    }
+    },
+"permissions": [
+    "activeTab",
+    "tabs"
 
+],
+"background": {
+    "scripts": [
+        "background.js"
+    ]
+}
 
 
 }
