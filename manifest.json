@@ -6,19 +6,13 @@
     "author": "Meimei Xiong & Jason Goldman",
     "description": "Quickly hides your current 'unacceptable' webpage with a pre-determined 'acceptable' page",
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "popup/index.html"
         
     },
 "permissions": [
     "activeTab",
     "tabs"
 
-],
-"background": {
-    "scripts": [
-        "background.js"
-    ]
-}
-
+]
 
 }
